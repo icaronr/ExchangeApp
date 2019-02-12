@@ -1,24 +1,9 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Primeiro app desenvolvido no Bootcamp Super Full Stack do OneBitCode.
 
-Things you may want to cover:
+Trata-se de um app que consome a api do  [Currency Data Feed](https://currencydatafeed.com/) e realiza conversões de acordo com os dados selecionados.
 
-* Ruby version
+Neste projeto foi utilizado CI/CD utilizando [CodeShip](https://codeship.com) e [Heroku](https://heroku.com).
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[Acesse o APP](https://obexchange-sfs.herokuapp.com/).
