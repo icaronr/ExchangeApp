@@ -1,22 +1,24 @@
 body {
-    background: image-url("/background-img.jpg") no-repeat center center fixed;
+    background: linear-gradient( rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.1) ), image-url("/currency-background.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 100vh;
   }
    
   .main{
-    margin-top: 50px;
+    margin-top: 1em;
   }
    
    
   .title-box{
-    margin-top: 20%;
+    margin-top: 1em;
    
     .title{
       color: white;
       text-shadow: 2px 0px 2px #000000;
+      text-align: center;
     }
    
     .subtitle{
@@ -25,6 +27,7 @@ body {
       font-size: 30px;
       margin-left: 10px;
       margin-right: 10px;
+      text-align: center;
     }
   }
    
