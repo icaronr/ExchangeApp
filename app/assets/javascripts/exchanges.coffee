@@ -14,7 +14,10 @@ $(document).ready ->
 
 
   make_conversion = () =>
-    $.ajax '/convert',
+    conversion = '/convert'
+    if ($("#source_currency").val() == "BTC") || ($("#target_currency").val() == "BTC")
+      conversion = '/convert-btc'
+    $.ajax conversion,
         type: 'GET'
         dataType: 'json'
         data: {
